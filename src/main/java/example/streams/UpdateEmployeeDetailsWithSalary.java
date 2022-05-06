@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import example.streams.data.EmployeeData;
-import example.streams.data.SalaryData;
-import example.streams.dto.Employee;
-import example.streams.dto.Salary;
+import example.data.EmployeeData;
+import example.data.SalaryData;
+import example.dto.Employee;
+import example.dto.Salary;
 
 public class UpdateEmployeeDetailsWithSalary {
 

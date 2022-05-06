@@ -1,9 +1,10 @@
-package example.streams.data;
+package example.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import example.streams.dto.Salary;
+import example.dto.Salary;
+
 
 public class SalaryData {
 	public List<Salary> getAllEmployeesSalaries() {

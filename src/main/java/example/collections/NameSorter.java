@@ -2,7 +2,7 @@ package example.collections;
 
 import java.util.Comparator;
 
-import example.streams.dto.Employee;
+import example.dto.Employee;
 
 public class NameSorter implements Comparator<Employee> {
 	@Override

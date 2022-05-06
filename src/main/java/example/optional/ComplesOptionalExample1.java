@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import example.streams.dto.Person;
+import example.dto.Person;
+
 
 public class ComplesOptionalExample1 {
 

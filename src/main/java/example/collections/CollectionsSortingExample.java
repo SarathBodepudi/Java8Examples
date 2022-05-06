@@ -5,9 +5,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import example.streams.data.EmployeeData;
-import example.streams.dto.Employee;
-import example.streams.dto.Person;
+import example.data.EmployeeData;
+import example.dto.Employee;
+import example.dto.Person;
+
 
 public class CollectionsSortingExample {
 	public static void main(String[] args) {

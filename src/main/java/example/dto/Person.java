@@ -1,4 +1,4 @@
-package example.streams.dto;
+package example.dto;
 
 import java.util.Optional;
 

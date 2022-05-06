@@ -1,9 +1,10 @@
-package example.streams.data;
+package example.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import example.streams.dto.Employee;
+import example.dto.Employee;
+
 
 public class EmployeeData {
 
