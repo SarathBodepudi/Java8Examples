@@ -25,16 +25,16 @@ public class ComplesOptionalExample1 {
 		String firstName0 = persons.get(0).getFirstName().orElse("NO NAME");
 		System.out.println(firstName0);
 		
-		String firstName = persons.get(0).getFirstName().orElseThrow();
+		Optional<String> firstName = persons.get(0).getFirstName(); //.orElseThrow();
 		System.out.println(firstName);
 		
-		String name = persons.stream()
-				.map(Person::getFirstName)
-                .filter(Optional::isPresent)
-                .map(Optional::orElseThrow)
-                .collect(Collectors.joining(","));
-		
-		System.out.println("name :" + name);
+		/*
+		 * String name = persons.stream() .map(Person::getFirstName)
+		 * .filter(Optional::isPresent) //.map(Optional::orElseThrow)
+		 * .collect(Collectors.joining(","));
+		 * 
+		 * System.out.println("name :" + name);
+		 */
 
 	}
 }
