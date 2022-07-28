@@ -88,7 +88,7 @@ public class ComparreJsonObjectsAndPrintDiff {
 		//System.out.println(jsonNode4.equals(jsonNode5));
 		
 		
-		JSONCompareResult result = JSONCompare.compareJSON(json3, json5, JSONCompareMode.STRICT);
+		JSONCompareResult result = JSONCompare.compareJSON(json3, json5, JSONCompareMode.STRICT.STRICT_ORDER);
 		System.out.println(result.toString() + "Passed :" + result.passed());
 		System.out.println(result.getFieldFailures());
 	}
